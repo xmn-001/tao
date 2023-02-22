@@ -1,5 +1,12 @@
 # Changelog
 
+## \[0.18.2]
+
+- Fix arrow cursor icon on Linux
+  - [e9eba855](https://github.com/tauri-apps/tao/commit/e9eba8555b2bff1080d75d3386ce990c04576cde) chore: rename change file on 2023-02-22
+- Attempt to get primary monitor on linux will now return None rather than panicking if monitor not found.
+  - [28b53f80](https://github.com/tauri-apps/tao/commit/28b53f80c49bbf2ae8902b98a2e28f6451a5a8f1) fix: don't panic if primary monitor not discoverable. ([#705](https://github.com/tauri-apps/tao/pull/705)) on 2023-02-22
+
 ## \[0.18.1]
 
 - Retain NSMenu reference instead of autoreleasing it.
